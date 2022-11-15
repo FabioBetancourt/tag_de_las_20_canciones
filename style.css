@@ -1,0 +1,7 @@
+.titulo1{
+    background-color: rgb(75, 75, 198);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+}
