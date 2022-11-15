@@ -1,7 +1,13 @@
 .titulo1{
-    background-color: rgb(75, 75, 198);
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: wheat;;
     display: flex;
     justify-content: center;
     font-family: 'Anton', sans-serif;
+}
+
+.titulo2{
+    font-family: 'Lobster', cursive;
+    color: wheat;
+    font-size: 2rem;;
 }
