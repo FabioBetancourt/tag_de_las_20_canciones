@@ -21,3 +21,13 @@
 body{
     background-color: brown;
 }
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: yellow;
+    color: blue ;
+}
