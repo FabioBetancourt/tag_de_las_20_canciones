@@ -31,3 +31,12 @@ button{
     background-color: yellow;
     color: blue ;
 }
+table{
+    width:"50%";
+    border:"1" ;
+    border-color:"orange";
+}
+
+.body2{
+    background-color: antiquewhite;
+}
