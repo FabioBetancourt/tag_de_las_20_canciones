@@ -18,13 +18,11 @@
     font-size: 2rem;;
 }
 
-body{
-    background-color: brown;
-}
-
 .contenedor{
     display: flex;
     justify-content: center;
+    background-image: url("https://images5.alphacoders.com/114/1141439.jpg");
+    background-size: cover;
 }
 
 button{
@@ -37,14 +35,30 @@ table{
     border-color:"orange";
 }
 
-.body2{
-    background-color: antiquewhite;
+body{
+    background-image: url("https://images5.alphacoders.com/114/1141439.jpg");
+    background-size: cover;
+}
+
+.th{
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: antiquewhite;
 }
 
 .td{
+    font-family: 'Lobster', cursive;
     font-weight: bold;
+    color: antiquewhite;
+    font-size: 20px;
 }
 
 caption{
     font-family: 'Anton', sans-serif;
+}
+
+.titulo{
+    font-size: 40px;
+    color: antiquewhite;
 }
