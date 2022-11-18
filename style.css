@@ -21,14 +21,15 @@
 .contenedor{
     display: flex;
     justify-content: center;
-    background-image: url("https://images5.alphacoders.com/114/1141439.jpg");
-    background-size: cover;
+    
 }
 
 button{
-    background-color: yellow;
-    color: blue ;
+    background-color: antiquewhite;
+    color: gray;
+    font-size: 20px;
 }
+
 table{
     width:"50%";
     border:"1" ;
@@ -40,18 +41,19 @@ body{
     background-size: cover;
 }
 
-.th{
+.table th{
     font-weight: bold;
     font-family: 'Anton', sans-serif;
     font-size: 20px;
     color: antiquewhite;
 }
 
-.td{
+.table td{
     font-family: 'Lobster', cursive;
     font-weight: bold;
     color: antiquewhite;
     font-size: 20px;
+    text-align: center;
 }
 
 caption{
@@ -61,4 +63,19 @@ caption{
 .titulo{
     font-size: 40px;
     color: antiquewhite;
+}
+
+.boy{
+    background-image:url("https://media.tenor.com/2Ylu0fHWuboAAAAC/tequila-shots.gif");
+    background-size: 100%;
+}
+
+.table td:hover{
+    color:gray;
+    background-color: antiquewhite;
+}
+
+.table th:hover{
+    color:gray;
+    background-color: antiquewhite;
 }
